@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.country-capitals-container {
+  background-color: #f8fafc;
+  padding: 20px 40px;
+  width: 450px;
+  min-height: 220px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  color: #000;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
+.radio-el-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.capital-select {
+  width: 140px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.question-text {
+  padding-left: 10px;
+  color: #323f4b;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .question-text {
+    font-size: 17px;
+  }
+}
+
+.country {
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #1e293b;
+  font-size: 20px;
+}
